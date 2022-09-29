@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Windows;
+using Input = UnityEngine.Input;
 
 public class PlayerController : MonoBehaviour
 {
@@ -12,40 +13,60 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed;
     private bool isMoving;
     private Animator animator;
+    private bool facingRight = true;
 
     private void Awake()
     {
         animator = GetComponent<Animator>();
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
         rb = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
-        if (movementJoystick.joystickVec.y != 0)
+        if(!isMoving)
         {
-            animator.SetFloat("moveX", movementJoystick.joystickVec.x);
-            animator.SetFloat("moveY", movementJoystick.joystickVec.y);
+            Vector2 input;
+            input.x = movementJoystick.joystickVec.x;
+            input.y = movementJoystick.joystickVec.y;
 
-            var targetPos = transform.position;
-            targetPos.x += movementJoystick.joystickVec.x;
-            targetPos.y += movementJoystick.joystickVec.y;
+            Debug.Log("Joystick X: " + movementJoystick.joystickVec.x);
+            Debug.Log("Joystick Y: " + movementJoystick.joystickVec.y);
 
-            if (isWalkable(targetPos))
+            
+
+            if (input != Vector2.zero)
             {
-                StartCoroutine(Move(targetPos));
-                rb.velocity = new Vector2(movementJoystick.joystickVec.x * playerSpeed, movementJoystick.joystickVec.y * playerSpeed);
+                var targetPos = transform.position;
+                targetPos.x += input.x;
+                targetPos.y += input.y;
+
+                if (isWalkable(targetPos))
+                {
+                    StartCoroutine(Move(targetPos));
+                    if (movementJoystick.joystickVec.x > 0 && !facingRight)
+                    {
+                        Flip();
+                        Debug.Log("Flipped :" + facingRight);
+                    }
+                    else if (movementJoystick.joystickVec.x < 0 && facingRight)
+                    {
+                        Flip();
+                        Debug.Log("Flipped :" + facingRight);
+                    }
+                }
+            }
+            else
+            {
+                rb.velocity = Vector2.zero;
             }
         }
-        else
-        {
-            rb.velocity = Vector2.zero;
-        }
+
+        /*
+         * Debugger
+         * Debug.Log("Animator Right: " + animator.GetBool("isMovingRight"));
+         * Debug.Log("Animator Left: " + animator.GetBool("isMovingLeft"));
+         * Debug.Log("Animator Move: " + animator.GetBool("isMoving"));
+        */
         animator.SetBool("isMoving", isMoving);
     }
     private bool isWalkable(Vector3 targetPos)
@@ -59,12 +80,40 @@ public class PlayerController : MonoBehaviour
     IEnumerator Move(Vector3 targetPos)
     {
         isMoving = true;
+        //start movement
         while ((targetPos - transform.position).sqrMagnitude > Mathf.Epsilon)
         {
-            transform.position = Vector3.MoveTowards(transform.position, targetPos, moveSpeed * Time.deltaTime);
+            rb.velocity = new Vector2(movementJoystick.joystickVec.x * playerSpeed, movementJoystick.joystickVec.y * playerSpeed);
+
+            if (movementJoystick.joystickVec.x > 0)
+            {
+                //start animation of walking to right
+                animator.SetBool("isMovingLeft", false);
+                animator.SetBool("isMovingRight", true);
+            }
+            else if (movementJoystick.joystickVec.x < 0)
+            {
+                //start animation of walking to left
+                animator.SetBool("isMovingLeft", true);
+                animator.SetBool("isMovingRight", false);
+            }
+            else if (movementJoystick.joystickVec.x == 0 && movementJoystick.joystickVec.y == 0)
+            {
+                //stop animation of walking to left
+                animator.SetBool("isMoving", false);
+                animator.SetBool("isMovingRight", false);
+                animator.SetBool("isMovingLeft", false);
+                isMoving = false;
+            }
+
             yield return null;
         }
-        rb.velocity = new Vector2(movementJoystick.joystickVec.x * playerSpeed, movementJoystick.joystickVec.y * playerSpeed);
-        isMoving = false;
+    }
+    void Flip()
+    {
+        Vector3 currentScale = rb.transform.localScale;
+        currentScale.x *= -1;
+        rb.transform.localScale = currentScale;
+        facingRight = !facingRight;
     }
 }

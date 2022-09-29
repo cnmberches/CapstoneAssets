@@ -447,7 +447,7 @@ MonoBehaviour:
     m_Bits: 8
   movementJoystick: {fileID: 1214069211}
   playerSpeed: 5
-  moveSpeed: 3
+  moveSpeed: 5
 --- !u!1 &849054576
 GameObject:
   m_ObjectHideFlags: 0
