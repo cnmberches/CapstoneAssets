@@ -13,7 +13,6 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed;
     private bool isMoving;
     private Animator animator;
-    private bool facingRight = true;
 
     private void Awake()
     {
@@ -32,8 +31,6 @@ public class PlayerController : MonoBehaviour
             Debug.Log("Joystick X: " + movementJoystick.joystickVec.x);
             Debug.Log("Joystick Y: " + movementJoystick.joystickVec.y);
 
-            
-
             if (input != Vector2.zero)
             {
                 var targetPos = transform.position;
@@ -43,16 +40,6 @@ public class PlayerController : MonoBehaviour
                 if (isWalkable(targetPos))
                 {
                     StartCoroutine(Move(targetPos));
-                    if (movementJoystick.joystickVec.x > 0 && !facingRight)
-                    {
-                        Flip();
-                        Debug.Log("Flipped :" + facingRight);
-                    }
-                    else if (movementJoystick.joystickVec.x < 0 && facingRight)
-                    {
-                        Flip();
-                        Debug.Log("Flipped :" + facingRight);
-                    }
                 }
             }
             else
@@ -109,11 +96,3 @@ public class PlayerController : MonoBehaviour
             yield return null;
         }
     }
-    void Flip()
-    {
-        Vector3 currentScale = rb.transform.localScale;
-        currentScale.x *= -1;
-        rb.transform.localScale = currentScale;
-        facingRight = !facingRight;
-    }
-}
