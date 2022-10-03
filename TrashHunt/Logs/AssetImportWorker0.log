@@ -15,7 +15,7 @@ C:/Users/Gab/Desktop/git/CapstoneAssets-1/TrashHunt
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51450
+50099
 Successfully changed project path to: C:/Users/Gab/Desktop/git/CapstoneAssets-1/TrashHunt
 C:/Users/Gab/Desktop/git/CapstoneAssets-1/TrashHunt
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/Gab/Desktop/git/CapstoneAssets-1/TrashHunt
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 99.82 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 101.05 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.9f1 (ad3870b89536)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -63,79 +63,79 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56212
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56272
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005705 seconds.
+Registered in 0.005388 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 97.52 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 96.66 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.701 seconds
+- Completed reload, in  0.744 seconds
 Domain Reload Profiling:
-	ReloadAssembly (702ms)
-		BeginReloadAssembly (75ms)
+	ReloadAssembly (744ms)
+		BeginReloadAssembly (97ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (506ms)
-			LoadAssemblies (73ms)
+		EndReloadAssembly (529ms)
+			LoadAssemblies (80ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (113ms)
+			SetupTypeCache (119ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (311ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (324ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (60ms)
+				InitializePlatformSupportModulesInManaged (63ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (98ms)
+				RefreshPlugins (97ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (104ms)
-				ProcessInitializeOnLoadMethodAttributes (47ms)
+				ProcessInitializeOnLoadAttributes (113ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007910 seconds.
+Registered in 0.008068 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Gab\Desktop\git\CapstoneAssets-1\TrashHunt\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Gab\Desktop\git\CapstoneAssets-1\TrashHunt\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 93.92 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 130.78 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.321 seconds
+- Completed reload, in  1.520 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1322ms)
-		BeginReloadAssembly (240ms)
+	ReloadAssembly (1521ms)
+		BeginReloadAssembly (278ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (13ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (122ms)
-		EndReloadAssembly (962ms)
-			LoadAssemblies (83ms)
+			CreateAndSetChildDomain (138ms)
+		EndReloadAssembly (1096ms)
+			LoadAssemblies (93ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (266ms)
+			SetupTypeCache (302ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (500ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (576ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
+				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (94ms)
-				BeforeProcessingInitializeOnLoad (98ms)
-				ProcessInitializeOnLoadAttributes (239ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				RefreshPlugins (131ms)
+				BeforeProcessingInitializeOnLoad (134ms)
+				ProcessInitializeOnLoadAttributes (244ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
@@ -143,12 +143,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.71 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.72 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4119 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 44 unused Assets / (223.7 KB). Loaded Objects now: 4572.
-Memory consumption went from 154.7 MB to 154.4 MB.
-Total: 3.335500 ms (FindLiveObjects: 0.307200 ms CreateObjectMapping: 0.225100 ms MarkObjects: 2.638900 ms  DeleteObjects: 0.163600 ms)
+Memory consumption went from 154.6 MB to 154.4 MB.
+Total: 3.562600 ms (FindLiveObjects: 0.345900 ms CreateObjectMapping: 0.288400 ms MarkObjects: 2.756900 ms  DeleteObjects: 0.170300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -162,1087 +162,85 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 7020.455566 seconds.
-  path: Assets/Arts/NPC/Houses_2.asset
-  artifactKey: Guid(fe3a8b7079953f5489b6dc55a9f00a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_2.asset using Guid(fe3a8b7079953f5489b6dc55a9f00a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63e1d4b159f942ade95e525a5fbfa650') in 0.088912 seconds 
+  Time since last request: 9305.963852 seconds.
+  path: Assets/Arts/Tilemaps/set_tree.png
+  artifactKey: Guid(38575485a549a3b46857c81a419c23fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Tilemaps/set_tree.png using Guid(38575485a549a3b46857c81a419c23fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20906ad4e729e693a1c3972c65bebd1d') in 0.147277 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Arts/NPC/Houses_30.asset
-  artifactKey: Guid(8196cd3c5753e2044afe0eebdc46d231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_30.asset using Guid(8196cd3c5753e2044afe0eebdc46d231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '082376a3b804991ab1c2a99c24c3107d') in 0.016914 seconds 
+  Time since last request: 55.932701 seconds.
+  path: Assets/Arts/Tilemaps/set_tree.png
+  artifactKey: Guid(38575485a549a3b46857c81a419c23fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Tilemaps/set_tree.png using Guid(38575485a549a3b46857c81a419c23fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8405ee230ac8a7e6276487c65ddda10c') in 0.014362 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Arts/NPC/Houses_87.asset
-  artifactKey: Guid(25a2134bd42567640875a884c681c3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_87.asset using Guid(25a2134bd42567640875a884c681c3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4248b2cd7016a1087fe6042484d3fcc') in 0.016760 seconds 
+  Time since last request: 20.481337 seconds.
+  path: Assets/Arts/Tilemaps/set_tree.png
+  artifactKey: Guid(38575485a549a3b46857c81a419c23fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Tilemaps/set_tree.png using Guid(38575485a549a3b46857c81a419c23fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cf413eb1a391c4bc50f775b51d4018a') in 0.021216 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Arts/NPC/Houses_19.asset
-  artifactKey: Guid(c5283a656110b81459ab2d72e65ed633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_19.asset using Guid(c5283a656110b81459ab2d72e65ed633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0117bfb6bfc113353ca7ade76e576e92') in 0.016612 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Arts/NPC/Houses_86.asset
-  artifactKey: Guid(ae0f519a4ae6f6441b5c49647b7390cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_86.asset using Guid(ae0f519a4ae6f6441b5c49647b7390cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e44b6987935159e7ddccc483afcc9c9') in 0.016429 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Arts/NPC/Houses_120.asset
-  artifactKey: Guid(453a02d68119d774dbe8e6feeb1a7746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_120.asset using Guid(453a02d68119d774dbe8e6feeb1a7746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a5e67240bff72e204bda6df61ccb4c9') in 0.015060 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Arts/NPC/Houses_130.asset
-  artifactKey: Guid(9a8c8bf8c1dcd464fab02ccfa543f0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_130.asset using Guid(9a8c8bf8c1dcd464fab02ccfa543f0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aef2da78b2ba4be160202261b67a20a') in 0.016209 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Arts/NPC/Houses_123.asset
-  artifactKey: Guid(8d3bb88ee916a2344b87f22aad43f307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_123.asset using Guid(8d3bb88ee916a2344b87f22aad43f307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f94d89df37b8068d558f81dd4aab644') in 0.015543 seconds 
+  Time since last request: 20.048007 seconds.
+  path: Assets/Arts/Tilemaps/set_tree_0.asset
+  artifactKey: Guid(fa6d2ae41388f5a469d677f01d00ef15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Tilemaps/set_tree_0.asset using Guid(fa6d2ae41388f5a469d677f01d00ef15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2867ac9f59326c3aef7146fe3375c40b') in 0.027177 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000030 seconds.
-  path: Assets/Arts/NPC/Houses_22.asset
-  artifactKey: Guid(117dcd3fde03f844eb226a36c9581cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_22.asset using Guid(117dcd3fde03f844eb226a36c9581cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbac2127346cb565420732251a7030c0') in 0.022823 seconds 
+  path: Assets/Arts/Tilemaps/set_tree_1.asset
+  artifactKey: Guid(201a75825919b72429b115a4191826f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Tilemaps/set_tree_1.asset using Guid(201a75825919b72429b115a4191826f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a095dd773000bfd90130a431d1acc73c') in 0.011959 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Arts/NPC/Houses_131.asset
-  artifactKey: Guid(a4d70003ea701864fa93028cc4c5476e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_131.asset using Guid(a4d70003ea701864fa93028cc4c5476e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '500006f57a7ee220081aad1ac3e0100f') in 0.020911 seconds 
+  Time since last request: 5622.156084 seconds.
+  path: Assets/Arts/Tilemaps/bush.png
+  artifactKey: Guid(cbf749c3ca125c348b2819bd771fe4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Tilemaps/bush.png using Guid(cbf749c3ca125c348b2819bd771fe4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b610ceab1e341bdd45f25e960c96cafb') in 0.050858 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Arts/NPC/Houses_42.asset
-  artifactKey: Guid(9674924db14591c4c99c0e6f05e3038c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_42.asset using Guid(9674924db14591c4c99c0e6f05e3038c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b670e4b88cd45b5265c95496baa6b4b') in 0.014803 seconds 
+  Time since last request: 33.342662 seconds.
+  path: Assets/Arts/Tilemaps/bush.png
+  artifactKey: Guid(cbf749c3ca125c348b2819bd771fe4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Tilemaps/bush.png using Guid(cbf749c3ca125c348b2819bd771fe4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c740b42b24957a43aaf4cba4ba4a72') in 0.013087 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Arts/NPC/Houses_122.asset
-  artifactKey: Guid(1610d02f305cfd8408881cad01d76d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_122.asset using Guid(1610d02f305cfd8408881cad01d76d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b09c11f832b123b1b4d19a82ddc8d39') in 0.014296 seconds 
+  Time since last request: 10.351043 seconds.
+  path: Assets/Arts/Tilemaps/bush.png
+  artifactKey: Guid(cbf749c3ca125c348b2819bd771fe4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Tilemaps/bush.png using Guid(cbf749c3ca125c348b2819bd771fe4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f3e0d8afc00aad788e87fac739bb92a') in 0.029179 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Arts/NPC/fence_tile_map_0.asset
-  artifactKey: Guid(72e9a23ad0800d54ab499326c20f5058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/fence_tile_map_0.asset using Guid(72e9a23ad0800d54ab499326c20f5058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09add8b8ce98b7161ef6ff938bf99e75') in 0.015988 seconds 
+  Time since last request: 21.520781 seconds.
+  path: Assets/Arts/Tilemaps/Bush.prefab
+  artifactKey: Guid(9da1ab8b7399f194da92e4f6fd1ba5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Tilemaps/Bush.prefab using Guid(9da1ab8b7399f194da92e4f6fd1ba5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eeb1aa332e1de1bc55cdcb341d011ed') in 0.051240 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Arts/NPC/Houses_52.asset
-  artifactKey: Guid(aa0847a37c16bbf44bd74ea95fa87bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_52.asset using Guid(aa0847a37c16bbf44bd74ea95fa87bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f738ccd2b361aac07664566fe8faf4d') in 0.016759 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Arts/NPC/Houses_158.asset
-  artifactKey: Guid(cd059b85c41cc774697c8e5dcea8acec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_158.asset using Guid(cd059b85c41cc774697c8e5dcea8acec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae3a6f7db1bbc127a243e90337e91a76') in 0.013092 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Arts/NPC/Houses_142.asset
-  artifactKey: Guid(3045d4b189a469b47a7aeb3db8472e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_142.asset using Guid(3045d4b189a469b47a7aeb3db8472e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28fa7623bbf3d92394ef73ab9dacad8f') in 0.017041 seconds 
+  Time since last request: 2.871428 seconds.
+  path: Assets/Arts/Tilemaps/Bush.prefab
+  artifactKey: Guid(9da1ab8b7399f194da92e4f6fd1ba5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Tilemaps/Bush.prefab using Guid(9da1ab8b7399f194da92e4f6fd1ba5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b4b6bf7d0beb3388fb6a9377c9019cf') in 0.016586 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/Arts/NPC/Houses_99.asset
-  artifactKey: Guid(7833ac325c9dbb94eb11448da367fd88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_99.asset using Guid(7833ac325c9dbb94eb11448da367fd88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cae97885f9b987fdf3baeb3751b118dd') in 0.016677 seconds 
+  path: Assets/Arts/Tilemaps/bush_1.asset
+  artifactKey: Guid(4a7d1b119a181ce4b8c0e4204da821aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Tilemaps/bush_1.asset using Guid(4a7d1b119a181ce4b8c0e4204da821aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba4c38ce509e511a7649f3dfa64a80a') in 0.014053 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/Arts/NPC/Houses_91.asset
-  artifactKey: Guid(c2140528a3b3a0d44a2af5dff467346f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_91.asset using Guid(c2140528a3b3a0d44a2af5dff467346f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '443a14ce6816b3d1256f3d25b94533c0') in 0.014239 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Arts/NPC/Houses_161.asset
-  artifactKey: Guid(771ad7e0afe35b04eb2b6b429cee0695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_161.asset using Guid(771ad7e0afe35b04eb2b6b429cee0695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a61abeb19e0f8e8be60f91de16dfb3f0') in 0.014698 seconds 
+  path: Assets/Arts/Tilemaps/bush_3.asset
+  artifactKey: Guid(87227c9562b4960419ac43bae1e4dcde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Tilemaps/bush_3.asset using Guid(87227c9562b4960419ac43bae1e4dcde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d9f02d83a9844ea610a46a829363878') in 0.011838 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/Arts/NPC/Houses_56.asset
-  artifactKey: Guid(7a6af4061114ccb498710e92c9f22178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_56.asset using Guid(7a6af4061114ccb498710e92c9f22178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '099a24930e0a34c32a278b8605f0d2f0') in 0.013328 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Arts/NPC/Houses_75.asset
-  artifactKey: Guid(2c86b8bcce29f4d479489f2cc3711e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_75.asset using Guid(2c86b8bcce29f4d479489f2cc3711e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f159853aa75ef64ef8c6bfe0e98c002') in 0.016172 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Arts/NPC/Houses_62.asset
-  artifactKey: Guid(ae5c04df6654c1b48bca51aaf0e229de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_62.asset using Guid(ae5c04df6654c1b48bca51aaf0e229de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e385151948b575bfe4ee983ce46da2d1') in 0.017493 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Arts/NPC/Houses_112.asset
-  artifactKey: Guid(8fb170049ae37224897cabd46d13a70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_112.asset using Guid(8fb170049ae37224897cabd46d13a70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1952233b1bd1aa9f2e10aafba04ce0f') in 0.014418 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Arts/NPC/Houses_89.asset
-  artifactKey: Guid(6be6cd5a7abbdc64698cb25cf7cef00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_89.asset using Guid(6be6cd5a7abbdc64698cb25cf7cef00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f48de1d8001c6493d92c51c9ded8fb') in 0.013746 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Arts/NPC/Houses_25.asset
-  artifactKey: Guid(b6a579b1b3dc9bb4c99b95692917e43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_25.asset using Guid(b6a579b1b3dc9bb4c99b95692917e43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0600e6d8297fe5a764f8fc6ffc0e3c98') in 0.014051 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Arts/NPC/Houses_148.asset
-  artifactKey: Guid(22812d694aef73d479a53193fd7455d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_148.asset using Guid(22812d694aef73d479a53193fd7455d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8310c26aae5c46e76f87b08f8c1f618a') in 0.014333 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Arts/NPC/Houses_167.asset
-  artifactKey: Guid(ffca8f841c6740d4699754d6170945b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_167.asset using Guid(ffca8f841c6740d4699754d6170945b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16dc6911c2ef064b405814441dd243df') in 0.017331 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Arts/NPC/Houses_138.asset
-  artifactKey: Guid(5974dbbad88d6764587298261a3efb43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_138.asset using Guid(5974dbbad88d6764587298261a3efb43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1af53fe54d23dbf4fc71c0121bcb6a7a') in 0.017448 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Arts/NPC/Houses_133.asset
-  artifactKey: Guid(9f460f7db14623f48b821ed5b1c6e899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_133.asset using Guid(9f460f7db14623f48b821ed5b1c6e899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd872bef99fd6499b79b07886619f6c9') in 0.014115 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Arts/NPC/Houses_27.asset
-  artifactKey: Guid(9f6a2adf15c4e1b4eb03693f38103164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_27.asset using Guid(9f6a2adf15c4e1b4eb03693f38103164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf354a701c9dd2379cdd10609336eb9') in 0.016850 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Arts/NPC/Houses_166.asset
-  artifactKey: Guid(201358416d477d54c96a986895b09a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_166.asset using Guid(201358416d477d54c96a986895b09a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f6f2e23f561d3300ab1f15fbe8141cf') in 0.016848 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Arts/NPC/Houses_24.asset
-  artifactKey: Guid(e7fe907b7ca53da49b671f8f6e3dd5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_24.asset using Guid(e7fe907b7ca53da49b671f8f6e3dd5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e94ae9c846aa17148f1c0aeac69404a8') in 0.014005 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Arts/NPC/Houses_13.asset
-  artifactKey: Guid(aeeeca78731d133428a4ff38b6215d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_13.asset using Guid(aeeeca78731d133428a4ff38b6215d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cdd36c29c6c00060d7f2cdc63849b99') in 0.015245 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Arts/NPC/Houses_9.asset
-  artifactKey: Guid(c08b7df67f594d94692e5d7429077fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_9.asset using Guid(c08b7df67f594d94692e5d7429077fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c5f3607d9877f5d3ebd6125f4757fc3') in 0.014116 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Arts/NPC/Houses_71.asset
-  artifactKey: Guid(4110d2c6a3fc4a8468637f1ba3ea5b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_71.asset using Guid(4110d2c6a3fc4a8468637f1ba3ea5b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c9ba67f1adba370f2a7bbdd8a878f3b') in 0.013647 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Arts/NPC/Houses_155.asset
-  artifactKey: Guid(b5bd52add4d5aac48ac8db003bfaa63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_155.asset using Guid(b5bd52add4d5aac48ac8db003bfaa63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a006dafea20f9a6a7654f73a6eabe144') in 0.014222 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Arts/NPC/Houses_65.asset
-  artifactKey: Guid(efbbd54e258f9fb4f9936e9c44b45307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_65.asset using Guid(efbbd54e258f9fb4f9936e9c44b45307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed64a58adb7bd7798ad5e91e80a53aee') in 0.018722 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Arts/NPC/Houses_117.asset
-  artifactKey: Guid(a4ab3291359521c4ca524e9156085352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_117.asset using Guid(a4ab3291359521c4ca524e9156085352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb596d5a0810b0a6356ba714186775d4') in 0.018491 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Arts/NPC/Houses_141.asset
-  artifactKey: Guid(9c122e02a361a844a863399821ba7feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_141.asset using Guid(9c122e02a361a844a863399821ba7feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563d927c397dde96be139326347be738') in 0.014809 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Arts/NPC/Houses_81.asset
-  artifactKey: Guid(fcc5902b899dfc1468d3ae2a85fdf59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_81.asset using Guid(fcc5902b899dfc1468d3ae2a85fdf59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65262b8c41763afd7c78b2c31ae8bff8') in 0.017651 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Arts/NPC/Houses_33.asset
-  artifactKey: Guid(264349edf1d3f674790025c2b903159a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_33.asset using Guid(264349edf1d3f674790025c2b903159a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b78b140d628568de036b5b51871c99') in 0.017570 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Arts/NPC/Houses_53.asset
-  artifactKey: Guid(9eb1928b2cfd43e4da951ba36455a293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_53.asset using Guid(9eb1928b2cfd43e4da951ba36455a293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75cbd26d094823af66b2060c5977b0d4') in 0.016915 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Arts/NPC/Houses_93.asset
-  artifactKey: Guid(fbee961288ef2f44296586e22e797dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_93.asset using Guid(fbee961288ef2f44296586e22e797dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f449a9888a653ec35c972382be062477') in 0.019773 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Arts/NPC/Houses_116.asset
-  artifactKey: Guid(4b3b25685941f434591fd5180b55963d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_116.asset using Guid(4b3b25685941f434591fd5180b55963d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12d7ba6ef8073029e4081e5e435aea2b') in 0.018325 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Arts/NPC/Houses_137.asset
-  artifactKey: Guid(6b0f4cf32af10304496a13dc37f5fa50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_137.asset using Guid(6b0f4cf32af10304496a13dc37f5fa50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba5cad79980f841a80c9921c9d308f06') in 0.014745 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Arts/NPC/Houses_16.asset
-  artifactKey: Guid(d20f8e3a4790d2c4c898757a4163c698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_16.asset using Guid(d20f8e3a4790d2c4c898757a4163c698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc79ccd7e4819be17865a2e829b6ade6') in 0.014406 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Arts/NPC/Houses_29.asset
-  artifactKey: Guid(c1860c95de76f2e438fb64b5cdd8b035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_29.asset using Guid(c1860c95de76f2e438fb64b5cdd8b035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b847977967c70de0bda820f4fe90a0c') in 0.014543 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Arts/NPC/Houses_31.asset
-  artifactKey: Guid(bf2b929a3697c8a499697325ca6a2b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_31.asset using Guid(bf2b929a3697c8a499697325ca6a2b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec0c4aa1c49b47089ec9e0fedab5b8fd') in 0.014014 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Arts/NPC/Houses_156.asset
-  artifactKey: Guid(e564612eb133c7346ab363211187bf46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_156.asset using Guid(e564612eb133c7346ab363211187bf46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8a76d2ffd4f61003b32c0c7cf3320a2') in 0.015332 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Arts/NPC/Houses_79.asset
-  artifactKey: Guid(ff26537114276824f82d9993ca5aca71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_79.asset using Guid(ff26537114276824f82d9993ca5aca71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7db7301f3b8f1b5f219ef4c8bd417ab5') in 0.015527 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Arts/NPC/Houses_94.asset
-  artifactKey: Guid(4da0b99ac164fef4899f9bfb89583139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_94.asset using Guid(4da0b99ac164fef4899f9bfb89583139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '820d6394409ebb50d5acfebd258578e2') in 0.013899 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Arts/NPC/Houses_108.asset
-  artifactKey: Guid(d451b1aa72953984eaceea4e0667ffc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_108.asset using Guid(d451b1aa72953984eaceea4e0667ffc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dc9087daee089ceb8f47d73c6f6b32a') in 0.017476 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Arts/NPC/Houses_143.asset
-  artifactKey: Guid(372fbfcb30ce9814e93d2661eba05543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_143.asset using Guid(372fbfcb30ce9814e93d2661eba05543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4dd9e685cb5d2dff8146e42479891d9') in 0.017099 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Arts/NPC/fence_tile_map_3.asset
-  artifactKey: Guid(93f6fe66b700b044bb428d7c97c5d24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/fence_tile_map_3.asset using Guid(93f6fe66b700b044bb428d7c97c5d24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c4a22d9357dc9bdb5c68ef71bd03d5') in 0.013811 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Arts/NPC/Houses_3.asset
-  artifactKey: Guid(1854a9486a972814c8b1dd85f8c59743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_3.asset using Guid(1854a9486a972814c8b1dd85f8c59743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08a65c83ec22d5466c07c12dee883af7') in 0.017274 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Arts/NPC/Houses_150.asset
-  artifactKey: Guid(5763a14f8403ea64da22fe62a32aade6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_150.asset using Guid(5763a14f8403ea64da22fe62a32aade6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b5495ee0b3ae8e0a2ab1af9a82a9bc') in 0.017169 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Arts/NPC/Houses_136.asset
-  artifactKey: Guid(7a7e6f2f9f8cb3d4cb1d4a11d7f2b56f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_136.asset using Guid(7a7e6f2f9f8cb3d4cb1d4a11d7f2b56f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f2f266d037b48ab5c3fa9027004979c') in 0.016784 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Arts/NPC/fence_tile_map_7.asset
-  artifactKey: Guid(8d318e8bd93836d4eb3fa9b9bd401aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/fence_tile_map_7.asset using Guid(8d318e8bd93836d4eb3fa9b9bd401aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ad5d08015d4bea6a8755b0a5ba6214') in 0.013358 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Arts/NPC/Houses_126.asset
-  artifactKey: Guid(752acbe9ee77bc8469026c4f75f6bbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_126.asset using Guid(752acbe9ee77bc8469026c4f75f6bbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ced4ce8465a065997f8b8ea761bbc3e') in 0.013678 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Arts/NPC/Houses_15.asset
-  artifactKey: Guid(776779e8898c7654ca77d30998a31af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_15.asset using Guid(776779e8898c7654ca77d30998a31af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdda396f48aef4663e9a2601b9da9869') in 0.013662 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Arts/NPC/Houses_20.asset
-  artifactKey: Guid(fd450366ce0e27e4c9bfd9af39d817ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_20.asset using Guid(fd450366ce0e27e4c9bfd9af39d817ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa0f7d058ae4ebd0285beb9fbad6f269') in 0.013540 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Arts/NPC/Houses_4.asset
-  artifactKey: Guid(69fab7444a2cabf488b34d88ecf50f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_4.asset using Guid(69fab7444a2cabf488b34d88ecf50f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfcbff6c1351e340c5b7b30adfdb0ec8') in 0.014540 seconds 
+  path: Assets/Arts/Tilemaps/bush_2.asset
+  artifactKey: Guid(b5c789750df995e48ba411d371c10245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Tilemaps/bush_2.asset using Guid(b5c789750df995e48ba411d371c10245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd8626de8514dc51f0a8cff5327ecea') in 0.016038 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000031 seconds.
-  path: Assets/Arts/NPC/Houses_46.asset
-  artifactKey: Guid(78ce34e34bf0a4a4bb794badb7e90ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_46.asset using Guid(78ce34e34bf0a4a4bb794badb7e90ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44cb6505af5006b20053233b00229e06') in 0.016673 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Arts/NPC/Houses_139.asset
-  artifactKey: Guid(162eff50267f39147b300bb5d472e07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_139.asset using Guid(162eff50267f39147b300bb5d472e07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '382ed1d27c17401ca551579603c6eb84') in 0.015624 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Arts/NPC/fence_tile_map_4.asset
-  artifactKey: Guid(e98cf0937f9590e4b9de14814c2dfccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/fence_tile_map_4.asset using Guid(e98cf0937f9590e4b9de14814c2dfccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5257bb29a766d80d3c38a8b79f3352c5') in 0.015602 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Arts/NPC/Houses_36.asset
-  artifactKey: Guid(be68af3d2329bb54ab45aa463cf3db52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_36.asset using Guid(be68af3d2329bb54ab45aa463cf3db52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9eea02729be1754054a37ed637f7898') in 0.015960 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Arts/NPC/Houses_74.asset
-  artifactKey: Guid(351c5b50f814e8f498de8d280c467463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_74.asset using Guid(351c5b50f814e8f498de8d280c467463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7959aa7c15a998644aead64cc39fa695') in 0.018827 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Arts/NPC/Houses_50.asset
-  artifactKey: Guid(e04f02d1fc12ca24c89b5760efe98096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_50.asset using Guid(e04f02d1fc12ca24c89b5760efe98096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af4dcb945dbb264278567447bfb599eb') in 0.016789 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Arts/NPC/Houses_63.asset
-  artifactKey: Guid(4a306a2f583511e43ad0075cc3d1eb7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_63.asset using Guid(4a306a2f583511e43ad0075cc3d1eb7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc0758639a9abb13f07ae250c231478') in 0.017196 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Arts/NPC/Houses_1.asset
-  artifactKey: Guid(8d3769b642f87784c90ed2df252fe14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_1.asset using Guid(8d3769b642f87784c90ed2df252fe14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ac5a760fb9ef5a1b83c0aa63cd7a3e') in 0.012942 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Arts/NPC/Houses_109.asset
-  artifactKey: Guid(9d21711cbd2c9624b9c457dfae33572c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_109.asset using Guid(9d21711cbd2c9624b9c457dfae33572c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0366a0f05070c8838060d5361b86db5a') in 0.014151 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Arts/NPC/Houses_34.asset
-  artifactKey: Guid(ced0342fafe68e041a13a10eebc4c762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_34.asset using Guid(ced0342fafe68e041a13a10eebc4c762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a848d3f5540628105d645f6275e82b2') in 0.012873 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Arts/NPC/Houses_111.asset
-  artifactKey: Guid(594fdd79a61ba4f4b98f05f5a6e0ad82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_111.asset using Guid(594fdd79a61ba4f4b98f05f5a6e0ad82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '220688ca9de624ff782fb42ccc5d5ea5') in 0.015921 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Arts/NPC/Houses_11.asset
-  artifactKey: Guid(78c1be9e7e6925641a300c9cc4c66b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_11.asset using Guid(78c1be9e7e6925641a300c9cc4c66b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe74c1a04495064ec349ef3e2df25651') in 0.014082 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Arts/NPC/Houses_40.asset
-  artifactKey: Guid(0ad19ff444433e042a558a4fb4990eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_40.asset using Guid(0ad19ff444433e042a558a4fb4990eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b034a29d336d40ea03bf4cbb3620ac82') in 0.015641 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Arts/NPC/Houses_110.asset
-  artifactKey: Guid(d957293ea54c9da4ab0caadd916fba2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_110.asset using Guid(d957293ea54c9da4ab0caadd916fba2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8e53d250fd818f5a0f751a1ab38e4ea') in 0.016516 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Arts/NPC/Houses_154.asset
-  artifactKey: Guid(330c4d2be6c57b1458daaeaad2f5f45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_154.asset using Guid(330c4d2be6c57b1458daaeaad2f5f45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96529293c68cd13cafdb6396877f3be0') in 0.014845 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Arts/NPC/Houses_125.asset
-  artifactKey: Guid(78d6bc1f9711e684e86b69c55ebb73f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_125.asset using Guid(78d6bc1f9711e684e86b69c55ebb73f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '460f1115b455b26bdb6000e196d348ec') in 0.015445 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Arts/NPC/Houses_115.asset
-  artifactKey: Guid(e8ff467b87666a64ea92a1bf0e5fc101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_115.asset using Guid(e8ff467b87666a64ea92a1bf0e5fc101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '636a0ea606905f05b96c7e12ea7bf5f6') in 0.016671 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Arts/NPC/Houses_44.asset
-  artifactKey: Guid(e2416b15e530060439455b0578c0b791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_44.asset using Guid(e2416b15e530060439455b0578c0b791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a5a46f19186cf47f6cf0f1d42379d10') in 0.014619 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Arts/NPC/Houses_163.asset
-  artifactKey: Guid(f5b84900830df79499a311e22aa0d00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_163.asset using Guid(f5b84900830df79499a311e22aa0d00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51ab80e0290200cd8d4533bfa2de7c17') in 0.014401 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Arts/NPC/Houses_106.asset
-  artifactKey: Guid(89b0e15aadb05314796dc45deebc5934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_106.asset using Guid(89b0e15aadb05314796dc45deebc5934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18da4afcc4411b8929887f2c430f69ba') in 0.016790 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Arts/NPC/fence_tile_map_6.asset
-  artifactKey: Guid(a78b726f60c55bd4b8bee0da5b6c2ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/fence_tile_map_6.asset using Guid(a78b726f60c55bd4b8bee0da5b6c2ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b62ef5311630c8a0012a823218b4471') in 0.015379 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Arts/NPC/Houses_21.asset
-  artifactKey: Guid(fec591dd1984c364ea652c6fd46d7eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_21.asset using Guid(fec591dd1984c364ea652c6fd46d7eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45e9fb22968bce9ae0611ac75f8d11ea') in 0.014013 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Arts/NPC/Houses_66.asset
-  artifactKey: Guid(40bc59f82d3ce094fa0b7f52f9d56a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_66.asset using Guid(40bc59f82d3ce094fa0b7f52f9d56a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20eb065e125bdab15b9ffaa7150e464e') in 0.013761 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Arts/NPC/Houses_119.asset
-  artifactKey: Guid(205debd2c09e74c4ca31f21bd32b23a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_119.asset using Guid(205debd2c09e74c4ca31f21bd32b23a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcc45efce2f1ff4ba2a50023b7c23a67') in 0.016480 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Arts/NPC/Houses_98.asset
-  artifactKey: Guid(ed3fbfdf513ece24b920f13a555dbc9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_98.asset using Guid(ed3fbfdf513ece24b920f13a555dbc9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '059605f757fc3899945bd4a465853e29') in 0.014552 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Arts/NPC/Houses_41.asset
-  artifactKey: Guid(8a8a8a377d232204b87d185dc76819d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_41.asset using Guid(8a8a8a377d232204b87d185dc76819d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40fc6167f84db44d1e53f9f1e7203537') in 0.014857 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Arts/NPC/Houses_149.asset
-  artifactKey: Guid(28a7bb55e5a570041b60ff09efd6c2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_149.asset using Guid(28a7bb55e5a570041b60ff09efd6c2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf0962096e403137ee6af0251d3d90e') in 0.019052 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Arts/NPC/Houses_47.asset
-  artifactKey: Guid(340b3253a7fdbd542b2eca956a575ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_47.asset using Guid(340b3253a7fdbd542b2eca956a575ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4aca26b5e23af024deeb7e9729122b0') in 0.014936 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Arts/NPC/Houses_100.asset
-  artifactKey: Guid(e6927cb16d3532d4fa58a9369610596c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_100.asset using Guid(e6927cb16d3532d4fa58a9369610596c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1822f3bda5a227384eb11d6c42bb82') in 0.013885 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Arts/NPC/Houses_140.asset
-  artifactKey: Guid(d805cbb96705dae4d94b827f44f80405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_140.asset using Guid(d805cbb96705dae4d94b827f44f80405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca47443b52980d88d01790668d193c4') in 0.015960 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Arts/NPC/Houses_82.asset
-  artifactKey: Guid(a55876fff3623ed4ea27ff2af5e9124f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_82.asset using Guid(a55876fff3623ed4ea27ff2af5e9124f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f49ad785ca621d6ee9ca40beb736a5f') in 0.015244 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Arts/NPC/Houses_49.asset
-  artifactKey: Guid(0cf62339b96dc2648ade7c320fa3a04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_49.asset using Guid(0cf62339b96dc2648ade7c320fa3a04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac2b073e2c50bfeac7b3ed95126ed66') in 0.014486 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Arts/NPC/Houses_0.asset
-  artifactKey: Guid(1789219709c16f9478c2f911d7c9412a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_0.asset using Guid(1789219709c16f9478c2f911d7c9412a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39788fa989c66a5b1cd54620def4ff23') in 0.016674 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Arts/NPC/Houses_104.asset
-  artifactKey: Guid(b1e6495736cc990439d89a3bf96e814c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_104.asset using Guid(b1e6495736cc990439d89a3bf96e814c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac1362b13ad1fdc3c381a7ff82a176b') in 0.014128 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Arts/NPC/Houses_43.asset
-  artifactKey: Guid(9234244b54fa0e84a8113d815b432dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_43.asset using Guid(9234244b54fa0e84a8113d815b432dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b636d4852786310a928bbec14610f6') in 0.015933 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Arts/NPC/Houses_58.asset
-  artifactKey: Guid(47a4b4804b14e5542be3cdd41bee07f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_58.asset using Guid(47a4b4804b14e5542be3cdd41bee07f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4bb9cf16e87526bce1afe521cfbf804') in 0.017141 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/Arts/NPC/Houses_17.asset
-  artifactKey: Guid(490e54afd3696ac469d0a87723a2d253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_17.asset using Guid(490e54afd3696ac469d0a87723a2d253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3baed058fc1e1fe26f86d075669ac9c6') in 0.018153 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Arts/NPC/Houses_145.asset
-  artifactKey: Guid(65a6cd8721cb51f49959b57ff82e8df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_145.asset using Guid(65a6cd8721cb51f49959b57ff82e8df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa2b3935430197306ad07e686bcc79f') in 0.015643 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Arts/NPC/Houses_26.asset
-  artifactKey: Guid(8708ca8181e26444389a8f8031825f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_26.asset using Guid(8708ca8181e26444389a8f8031825f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b052c931399fd76775b438e992b414e') in 0.015612 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Arts/NPC/Houses_107.asset
-  artifactKey: Guid(8c316afa3b3e28141aeaecedcd94a9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_107.asset using Guid(8c316afa3b3e28141aeaecedcd94a9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4522477917c005c9c3f0e969501137ab') in 0.018815 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Arts/NPC/Houses_113.asset
-  artifactKey: Guid(4f01ccddc65afa14eb0523732411fe20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_113.asset using Guid(4f01ccddc65afa14eb0523732411fe20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a082eeb7a878502bfe9d811966703dbd') in 0.014910 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Arts/NPC/Houses_73.asset
-  artifactKey: Guid(17a077d6ba5d74544951df3253f64069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_73.asset using Guid(17a077d6ba5d74544951df3253f64069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7441b80054919cba182fcd53d55511b') in 0.014143 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Arts/NPC/Houses_118.asset
-  artifactKey: Guid(571e68de49019c04fb8ac8aac74de995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_118.asset using Guid(571e68de49019c04fb8ac8aac74de995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffeb8fef47288ade543d9a9405677b54') in 0.015872 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Arts/NPC/Houses_165.asset
-  artifactKey: Guid(9634aad1bdc5132499bdf1a415d97428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_165.asset using Guid(9634aad1bdc5132499bdf1a415d97428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62212ea75ad6584a89a4ae19209f07ed') in 0.014400 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Arts/NPC/Houses_127.asset
-  artifactKey: Guid(f37b4274c1761c9418f6274585f2cdd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_127.asset using Guid(f37b4274c1761c9418f6274585f2cdd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eb78c2d43f8f4631f0cc4512dc7df09') in 0.015854 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Arts/NPC/Houses_5.asset
-  artifactKey: Guid(a09ec6d93c96b804ab5af635caec95db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_5.asset using Guid(a09ec6d93c96b804ab5af635caec95db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea098aed1fd11b2a39e741065c26ec1') in 0.017059 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Arts/NPC/Houses_128.asset
-  artifactKey: Guid(a801228c3c80e8d478bfdce82da27b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_128.asset using Guid(a801228c3c80e8d478bfdce82da27b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6970596855c641b28bd77dfa91ed373a') in 0.017771 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Arts/NPC/Houses_28.asset
-  artifactKey: Guid(e16d9ef86a134bf42bc4f220a8a307a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_28.asset using Guid(e16d9ef86a134bf42bc4f220a8a307a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ced90139996d747d9f8a54e1e301b4e') in 0.014679 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Arts/NPC/Houses_162.asset
-  artifactKey: Guid(d1447b611d99e3d4da1736b7b37e8338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_162.asset using Guid(d1447b611d99e3d4da1736b7b37e8338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5a8d99cd2bfe0d63b4c4f5678c54e73') in 0.016704 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Arts/NPC/Houses_129.asset
-  artifactKey: Guid(e63fb8d66985c554ab47e84f7444d3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_129.asset using Guid(e63fb8d66985c554ab47e84f7444d3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b9fba3423b5d09260eed93a5ce8b1b3') in 0.013932 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Arts/NPC/Houses_103.asset
-  artifactKey: Guid(fcad95612e01f054a9df2ca00011303b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_103.asset using Guid(fcad95612e01f054a9df2ca00011303b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f46f82d35949e6c4edea5ace1201592') in 0.014672 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Arts/NPC/Houses_83.asset
-  artifactKey: Guid(97737c1147c98114d9c02cee66258328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_83.asset using Guid(97737c1147c98114d9c02cee66258328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfa3ae2c1dc0591c40cc92d2d8883897') in 0.018771 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Arts/NPC/Houses_95.asset
-  artifactKey: Guid(ccb328579adc40a46bd1e88481a4cde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_95.asset using Guid(ccb328579adc40a46bd1e88481a4cde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd34c9077b2347f1420222777c9d043b') in 0.015073 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Arts/NPC/Houses_39.asset
-  artifactKey: Guid(8b3466ca7c1e4cb4098aa2df92911bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_39.asset using Guid(8b3466ca7c1e4cb4098aa2df92911bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d78208aa654e1b42686707f65431033') in 0.014915 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Arts/NPC/Houses_170.asset
-  artifactKey: Guid(7bfc0a7e2e15e7845b2c578a3c016735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_170.asset using Guid(7bfc0a7e2e15e7845b2c578a3c016735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbb93a97b2e1cca0054e68aa810a8766') in 0.016567 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Arts/NPC/Houses_14.asset
-  artifactKey: Guid(26bf6c4f0c6238848bcc492b98fbd9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_14.asset using Guid(26bf6c4f0c6238848bcc492b98fbd9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d88c6ad945650845bb10bfd5261d0fd') in 0.015800 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Arts/NPC/Houses_80.asset
-  artifactKey: Guid(54f257ec91d248f48ae7072325f4334c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_80.asset using Guid(54f257ec91d248f48ae7072325f4334c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '389102b84132daa958c902852d045439') in 0.015258 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Arts/NPC/Houses_70.asset
-  artifactKey: Guid(6cb8501c3a438f846a7a4039ceed6301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_70.asset using Guid(6cb8501c3a438f846a7a4039ceed6301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab43bfe77e4a75b0ed16ad543f4a128') in 0.016432 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Arts/NPC/fence_tile_map_5.asset
-  artifactKey: Guid(b6a02ec7a423756488e762a2607a2242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/fence_tile_map_5.asset using Guid(b6a02ec7a423756488e762a2607a2242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d753dca582e6ab11effb881e5b4ea9') in 0.014806 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Arts/NPC/Houses_168.asset
-  artifactKey: Guid(796657d40e1910f47a6a357c68fc5d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_168.asset using Guid(796657d40e1910f47a6a357c68fc5d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84b1262ea1da086fe9f8f2f9e34d88f9') in 0.018372 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Arts/NPC/Houses_12.asset
-  artifactKey: Guid(ff80cff247d693149a418a55a4304aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_12.asset using Guid(ff80cff247d693149a418a55a4304aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a16de6d1d1e855b1fcb371e852a82db') in 0.015482 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Arts/NPC/Houses_68.asset
-  artifactKey: Guid(77c1f9d5d84fd854f86ed7d21fc37f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_68.asset using Guid(77c1f9d5d84fd854f86ed7d21fc37f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e8f391dce0428a4d5f3f09339870a20') in 0.015799 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Arts/NPC/Houses_92.asset
-  artifactKey: Guid(6f99ec3fa47036448840c043355d2b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_92.asset using Guid(6f99ec3fa47036448840c043355d2b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d7bfc2527539095e3c97c956e87b1c8') in 0.015320 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Arts/NPC/fence_tile_map_2.asset
-  artifactKey: Guid(5c104dcb682bc494d8ef08169fc7c22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/fence_tile_map_2.asset using Guid(5c104dcb682bc494d8ef08169fc7c22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15386efea6372d7c8069db2cdfac643a') in 0.014951 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Arts/NPC/Houses_45.asset
-  artifactKey: Guid(44d4bf90d372c5f4bb1e6b3f8766df45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_45.asset using Guid(44d4bf90d372c5f4bb1e6b3f8766df45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bea7cafccf310e5d8901a4092c72ae10') in 0.015593 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Arts/NPC/Houses_6.asset
-  artifactKey: Guid(ab9ae4ee681f8c441a116e4e1384d1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_6.asset using Guid(ab9ae4ee681f8c441a116e4e1384d1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91e6afa6f33a4dbdb81044c010ea571e') in 0.016045 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Arts/NPC/Houses_157.asset
-  artifactKey: Guid(4ebf320d0b837a14d8891dd8bc66c526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_157.asset using Guid(4ebf320d0b837a14d8891dd8bc66c526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24ea86e929643340e9c4baeac3b1e085') in 0.016513 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Arts/NPC/Houses_97.asset
-  artifactKey: Guid(fe0dda82be13e7b4d87a0f02bf6b61e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_97.asset using Guid(fe0dda82be13e7b4d87a0f02bf6b61e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1d801f6a2c3a07fafb30567e86634f') in 0.014630 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Arts/NPC/Houses_90.asset
-  artifactKey: Guid(3f45c8d354b91534487c8a1a3f69d994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_90.asset using Guid(3f45c8d354b91534487c8a1a3f69d994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfda43856b081f91b2b616e63e7f50c0') in 0.017603 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Arts/NPC/Houses_171.asset
-  artifactKey: Guid(c383adb702eb8824a9ee5d028fff430b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_171.asset using Guid(c383adb702eb8824a9ee5d028fff430b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a7aaa42b2a443f58378a68aa829b1f') in 0.014556 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Arts/NPC/Houses_35.asset
-  artifactKey: Guid(43978a94fca59f24f96b1609af69ea50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_35.asset using Guid(43978a94fca59f24f96b1609af69ea50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82124c4b9530ab61177534bf9bbe4e6d') in 0.015578 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Arts/NPC/Houses_67.asset
-  artifactKey: Guid(aa876f522f3a8cc418841d153ff6b690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_67.asset using Guid(aa876f522f3a8cc418841d153ff6b690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77eaff7a453efbab1fe89ca901043947') in 0.017535 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Arts/NPC/Houses_18.asset
-  artifactKey: Guid(41abb816f0ddd40469bcee2564dc7b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_18.asset using Guid(41abb816f0ddd40469bcee2564dc7b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3697e145a01812bbbd409e36857b70') in 0.016387 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Arts/NPC/Houses_72.asset
-  artifactKey: Guid(83e67b2ac07a25543a7be464881a7475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_72.asset using Guid(83e67b2ac07a25543a7be464881a7475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '392d2ee48f5e0f5e9c9fc244c1c5807a') in 0.018186 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Arts/NPC/Houses_77.asset
-  artifactKey: Guid(01a801c3b8afd004e9891622fad17aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_77.asset using Guid(01a801c3b8afd004e9891622fad17aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f02b6514308c44cba928d9971a403d1') in 0.016653 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Arts/NPC/Houses_135.asset
-  artifactKey: Guid(dea62e82a7e4d2d40811f438fb90c674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_135.asset using Guid(dea62e82a7e4d2d40811f438fb90c674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b5cd9950ba743c1b14a5dfd2fd301a') in 0.043843 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Arts/NPC/Houses_159.asset
-  artifactKey: Guid(90b519930dd075a41b19db2004f22e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_159.asset using Guid(90b519930dd075a41b19db2004f22e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '845bc614e2a84185ea99f3d8eda76acb') in 0.022070 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Arts/NPC/Houses_51.asset
-  artifactKey: Guid(2e6f67531220d1c4cbf5c05d8b8f8be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_51.asset using Guid(2e6f67531220d1c4cbf5c05d8b8f8be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a5633b3bf9f37925d428d8efcdf1ea') in 0.015707 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Arts/NPC/Houses_153.asset
-  artifactKey: Guid(ad5d2f4162d82464ba8fe432e8ebbdd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_153.asset using Guid(ad5d2f4162d82464ba8fe432e8ebbdd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f056bcfd0aa6a1b98bed72ee69e3a251') in 0.017834 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Arts/NPC/Houses_7.asset
-  artifactKey: Guid(b295bfba516df9f469acf9092d7a3b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_7.asset using Guid(b295bfba516df9f469acf9092d7a3b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8227229dc71faa1b9a478ce6810d1491') in 0.019188 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Arts/NPC/Houses_114.asset
-  artifactKey: Guid(9405e59a8ad6a844e863468370dea051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_114.asset using Guid(9405e59a8ad6a844e863468370dea051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '355f0d187c9749c62e755b20782ba2ea') in 0.014818 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Arts/NPC/Houses_54.asset
-  artifactKey: Guid(49d97cc8863fb2d4088ad3e47e78ed54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_54.asset using Guid(49d97cc8863fb2d4088ad3e47e78ed54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '835ef195e22c62d511f5575f93d5c588') in 0.015978 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Arts/NPC/Houses_37.asset
-  artifactKey: Guid(5390619d66304594988f6ef5c0b4cff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_37.asset using Guid(5390619d66304594988f6ef5c0b4cff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c064375213069822baa2a2154a77d447') in 0.015854 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Arts/NPC/Houses_146.asset
-  artifactKey: Guid(a92e298abe3c480418a6d92140691079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_146.asset using Guid(a92e298abe3c480418a6d92140691079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e915f75ec6a9351ccd6e426744067577') in 0.017090 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Arts/NPC/Houses_38.asset
-  artifactKey: Guid(f9bd126e8f67e07418780dfec6d51ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_38.asset using Guid(f9bd126e8f67e07418780dfec6d51ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c9bf34a841b78300b450e313b0c26fa') in 0.014182 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Arts/NPC/Houses_76.asset
-  artifactKey: Guid(700b985f116dafa41a06a9b715c499df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_76.asset using Guid(700b985f116dafa41a06a9b715c499df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '034281834a6730edc5ea9adebb584917') in 0.015037 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Arts/NPC/Houses_132.asset
-  artifactKey: Guid(4da94fb50a47a08438a1e7cd2b67c7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_132.asset using Guid(4da94fb50a47a08438a1e7cd2b67c7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a5ceecd409f5917303229f91c529cd') in 0.016862 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Arts/NPC/fence_tile_map_8.asset
-  artifactKey: Guid(35257b05572f1e74f8ea8648a6a5be01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/fence_tile_map_8.asset using Guid(35257b05572f1e74f8ea8648a6a5be01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b2629d9f4303aad6b4138ff24fe6989') in 0.015156 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Arts/NPC/Houses_61.asset
-  artifactKey: Guid(c3715174bc053f0488fa794ff3f7e0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_61.asset using Guid(c3715174bc053f0488fa794ff3f7e0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07e899c056f9b4bf02334c5e208cae3d') in 0.019163 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Arts/NPC/Houses_147.asset
-  artifactKey: Guid(a9826c1f24bd0f24ab38a5adec7ae58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_147.asset using Guid(a9826c1f24bd0f24ab38a5adec7ae58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3734f4d6760fd2749b8a58d6073d40') in 0.014665 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Arts/NPC/Houses_144.asset
-  artifactKey: Guid(5028980f8ed078e42b47379d73b59077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_144.asset using Guid(5028980f8ed078e42b47379d73b59077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d44ae6e35911599d65e8bd83c6fc38a') in 0.016030 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Arts/NPC/Houses_121.asset
-  artifactKey: Guid(e201055be94a5f94a9cc39ac6c219c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_121.asset using Guid(e201055be94a5f94a9cc39ac6c219c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '389670666a7478bee30ee4968ac3a5dc') in 0.016945 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Arts/NPC/Houses_152.asset
-  artifactKey: Guid(0a34d4b99f2c1df41a8cfc51e1312658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_152.asset using Guid(0a34d4b99f2c1df41a8cfc51e1312658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca38fa5567599d5182a0510948877361') in 0.014116 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Arts/NPC/fence_tile_map_1.asset
-  artifactKey: Guid(24aaf52371856554abf6673b741c5498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/fence_tile_map_1.asset using Guid(24aaf52371856554abf6673b741c5498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be15fb643bc37ac9e156bcd719858ade') in 0.014445 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Arts/NPC/Houses_101.asset
-  artifactKey: Guid(1a345bfc36533b042ad28ea80930e368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_101.asset using Guid(1a345bfc36533b042ad28ea80930e368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3edc99ed47662b100c82c2dae929428c') in 0.017903 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Arts/NPC/Houses_64.asset
-  artifactKey: Guid(019dd6dc7fbfa5c478abbf7030f3f7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_64.asset using Guid(019dd6dc7fbfa5c478abbf7030f3f7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2325b1f76eb56c3e086123a816f2fa69') in 0.014935 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Arts/NPC/Houses_78.asset
-  artifactKey: Guid(8ced60fb318bb434a9ac3448339ca5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_78.asset using Guid(8ced60fb318bb434a9ac3448339ca5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5455db08c07b17620b140f935657ab41') in 0.016356 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Arts/NPC/Houses_88.asset
-  artifactKey: Guid(4985c997685881a4dbb4ceb5fefba04a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_88.asset using Guid(4985c997685881a4dbb4ceb5fefba04a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed4f7e28286d56a15e0b43a0f05c9cbd') in 0.017130 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/Arts/NPC/Houses_124.asset
-  artifactKey: Guid(677cd711f6b99fd4e98ec4e5831d2388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_124.asset using Guid(677cd711f6b99fd4e98ec4e5831d2388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31351c5256226e995a44ebe85da32785') in 0.016899 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Arts/NPC/Houses_164.asset
-  artifactKey: Guid(60b92ecb2304c634aaade1567a61e220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_164.asset using Guid(60b92ecb2304c634aaade1567a61e220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b003038e491dfc3917e838cf1372de5') in 0.018677 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Arts/NPC/Houses_134.asset
-  artifactKey: Guid(899306459942e5d4fb08838c6c648fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_134.asset using Guid(899306459942e5d4fb08838c6c648fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c8e74fe3f52173789501a9e731b341') in 0.017658 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Arts/NPC/Houses_151.asset
-  artifactKey: Guid(e8206b0365b45d44abedbc32273fede9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_151.asset using Guid(e8206b0365b45d44abedbc32273fede9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c235334a908a7f310785befb568ed7') in 0.037543 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Arts/NPC/Houses_169.asset
-  artifactKey: Guid(f9459dcf22b8f4849bf1a148ae7e7946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_169.asset using Guid(f9459dcf22b8f4849bf1a148ae7e7946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec6f48186a1d9ad7a88461afcdd37f2c') in 0.017460 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Arts/NPC/Houses_32.asset
-  artifactKey: Guid(dbc9efc5ad231b940a525f777a94c95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_32.asset using Guid(dbc9efc5ad231b940a525f777a94c95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6428208ec6d2a5196595ae5bc705261') in 0.015816 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Arts/NPC/Houses_10.asset
-  artifactKey: Guid(a0e417c9a5e18a7489d768fcff29612a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_10.asset using Guid(a0e417c9a5e18a7489d768fcff29612a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766e9578d2184913edcbb10578c87289') in 0.018284 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Arts/NPC/Houses_60.asset
-  artifactKey: Guid(ed970e00f15eb6d4d9a90219d1b99e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_60.asset using Guid(ed970e00f15eb6d4d9a90219d1b99e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d1df42da0f7a203bb5e631034847c38') in 0.017087 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Arts/NPC/Houses_48.asset
-  artifactKey: Guid(4aaa0f544c21a924fba4ed1a45050c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_48.asset using Guid(4aaa0f544c21a924fba4ed1a45050c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21e951ec3397f4d55d17f7edcc8145a1') in 0.019329 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Arts/NPC/Houses_55.asset
-  artifactKey: Guid(597c20161882964438212b0b9ffe1977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_55.asset using Guid(597c20161882964438212b0b9ffe1977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e508cfe3b0d36395901514fe4529662') in 0.015685 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Arts/NPC/Houses_84.asset
-  artifactKey: Guid(1ee82a092ba7f7340988af7373e3eae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_84.asset using Guid(1ee82a092ba7f7340988af7373e3eae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '046b6b6bbcc0eb79c92cd20ee1f6521e') in 0.016951 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Arts/NPC/Houses_59.asset
-  artifactKey: Guid(919b7f9e023218d419660229c11cb5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_59.asset using Guid(919b7f9e023218d419660229c11cb5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e3891d457f988a721998074fa6af509') in 0.014675 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Arts/NPC/Houses_85.asset
-  artifactKey: Guid(74b6cb509ff8b354a9f7353004d4c428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_85.asset using Guid(74b6cb509ff8b354a9f7353004d4c428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '074f65b307b05a9ca3676917024953ef') in 0.014877 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Arts/NPC/Houses_102.asset
-  artifactKey: Guid(b63a3a74222de3e43bab9ebb1879c3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_102.asset using Guid(b63a3a74222de3e43bab9ebb1879c3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d38ededd39ff86e07e38d57c91a432c') in 0.016747 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Arts/NPC/Houses_69.asset
-  artifactKey: Guid(7d023a63be599944fba96ee915cf1dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_69.asset using Guid(7d023a63be599944fba96ee915cf1dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce7f06733c82da2422e7768d5420ad28') in 0.017062 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Arts/NPC/Houses_8.asset
-  artifactKey: Guid(efc3c2f6d9290c249af5cb8da40de87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_8.asset using Guid(efc3c2f6d9290c249af5cb8da40de87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f0a36f29fa5631c7a9af92fb4a6a17a') in 0.014228 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Arts/NPC/Houses_105.asset
-  artifactKey: Guid(91170a840249ebc46b951337611bf23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_105.asset using Guid(91170a840249ebc46b951337611bf23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73f440f1bc4a6faee2b7ffa830417886') in 0.014796 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Arts/NPC/Houses_23.asset
-  artifactKey: Guid(d4b161b208b61714c940955334d1e1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_23.asset using Guid(d4b161b208b61714c940955334d1e1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '761a091c44c410767c75011b5674bbe3') in 0.013935 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Arts/NPC/Houses_57.asset
-  artifactKey: Guid(c1312cbbb3ee41d499af1be6dcfd27aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_57.asset using Guid(c1312cbbb3ee41d499af1be6dcfd27aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df177cd94130be8e992a4304dc69ff4b') in 0.014068 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Arts/NPC/Houses_160.asset
-  artifactKey: Guid(ea9c2fadc2737794ead00358aab3d246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_160.asset using Guid(ea9c2fadc2737794ead00358aab3d246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '687f9143eb2d5cdd7f3986118ea321e8') in 0.014766 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Arts/NPC/Houses_96.asset
-  artifactKey: Guid(77abae8b3b611124684a2cded85746d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/NPC/Houses_96.asset using Guid(77abae8b3b611124684a2cded85746d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c70efd2a153d76657a4a63b9f7e2031') in 0.015217 seconds 
+  path: Assets/Arts/Tilemaps/bush_0.asset
+  artifactKey: Guid(73a7bb519d2f6864b8a9a48bad1bd619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Tilemaps/bush_0.asset using Guid(73a7bb519d2f6864b8a9a48bad1bd619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fe907d87ceee7319e3e6313972c2f30') in 0.012435 seconds 
