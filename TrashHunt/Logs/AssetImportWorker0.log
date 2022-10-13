@@ -15,7 +15,7 @@ C:/Users/Gab/Desktop/git/CapstoneAssets-1/TrashHunt
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50099
+52241
 Successfully changed project path to: C:/Users/Gab/Desktop/git/CapstoneAssets-1/TrashHunt
 C:/Users/Gab/Desktop/git/CapstoneAssets-1/TrashHunt
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/Gab/Desktop/git/CapstoneAssets-1/TrashHunt
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 101.05 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 109.25 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.9f1 (ad3870b89536)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -63,92 +63,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56272
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56484
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005388 seconds.
+Registered in 0.005213 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 96.66 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 99.42 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.744 seconds
+- Completed reload, in  0.783 seconds
 Domain Reload Profiling:
-	ReloadAssembly (744ms)
-		BeginReloadAssembly (97ms)
+	ReloadAssembly (783ms)
+		BeginReloadAssembly (85ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (529ms)
-			LoadAssemblies (80ms)
+		EndReloadAssembly (572ms)
+			LoadAssemblies (84ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (119ms)
+			SetupTypeCache (139ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (324ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (322ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (63ms)
+				InitializePlatformSupportModulesInManaged (66ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (97ms)
+				RefreshPlugins (100ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (113ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
+				ProcessInitializeOnLoadAttributes (109ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008068 seconds.
+Registered in 0.008069 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Gab\Desktop\git\CapstoneAssets-1\TrashHunt\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Gab\Desktop\git\CapstoneAssets-1\TrashHunt\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 130.78 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 97.62 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.520 seconds
+- Completed reload, in  1.323 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1521ms)
-		BeginReloadAssembly (278ms)
+	ReloadAssembly (1325ms)
+		BeginReloadAssembly (222ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (138ms)
-		EndReloadAssembly (1096ms)
-			LoadAssemblies (93ms)
+			CreateAndSetChildDomain (125ms)
+		EndReloadAssembly (981ms)
+			LoadAssemblies (89ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (302ms)
+			SetupTypeCache (274ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (72ms)
-			SetupLoadedEditorAssemblies (576ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (505ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
+				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (131ms)
-				BeforeProcessingInitializeOnLoad (134ms)
-				ProcessInitializeOnLoadAttributes (244ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
+				RefreshPlugins (98ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (241ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.72 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4119 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 44 unused Assets / (223.7 KB). Loaded Objects now: 4572.
 Memory consumption went from 154.6 MB to 154.4 MB.
-Total: 3.562600 ms (FindLiveObjects: 0.345900 ms CreateObjectMapping: 0.288400 ms MarkObjects: 2.756900 ms  DeleteObjects: 0.170300 ms)
+Total: 3.530100 ms (FindLiveObjects: 0.343700 ms CreateObjectMapping: 0.311700 ms MarkObjects: 2.664000 ms  DeleteObjects: 0.209500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -162,85 +162,31 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 9305.963852 seconds.
-  path: Assets/Arts/Tilemaps/set_tree.png
-  artifactKey: Guid(38575485a549a3b46857c81a419c23fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/Tilemaps/set_tree.png using Guid(38575485a549a3b46857c81a419c23fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20906ad4e729e693a1c3972c65bebd1d') in 0.147277 seconds 
+  Time since last request: 10445.982640 seconds.
+  path: Assets/Arts/Tilemaps/crafingbox_rock.png
+  artifactKey: Guid(de072d4db84fc0b41aea98893508959a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Tilemaps/crafingbox_rock.png using Guid(de072d4db84fc0b41aea98893508959a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c69dbe6b543a9cfc1d183dd99acb758') in 0.159818 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 55.932701 seconds.
-  path: Assets/Arts/Tilemaps/set_tree.png
-  artifactKey: Guid(38575485a549a3b46857c81a419c23fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/Tilemaps/set_tree.png using Guid(38575485a549a3b46857c81a419c23fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8405ee230ac8a7e6276487c65ddda10c') in 0.014362 seconds 
+  Time since last request: 37.275441 seconds.
+  path: Assets/Arts/Tilemaps/crafingbox_rock.png
+  artifactKey: Guid(de072d4db84fc0b41aea98893508959a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Tilemaps/crafingbox_rock.png using Guid(de072d4db84fc0b41aea98893508959a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd58a3d945affc1b7eca724660f1a084f') in 0.012232 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.481337 seconds.
-  path: Assets/Arts/Tilemaps/set_tree.png
-  artifactKey: Guid(38575485a549a3b46857c81a419c23fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/Tilemaps/set_tree.png using Guid(38575485a549a3b46857c81a419c23fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cf413eb1a391c4bc50f775b51d4018a') in 0.021216 seconds 
+  Time since last request: 12.275868 seconds.
+  path: Assets/Arts/Tilemaps/crafingbox_rock.png
+  artifactKey: Guid(de072d4db84fc0b41aea98893508959a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Tilemaps/crafingbox_rock.png using Guid(de072d4db84fc0b41aea98893508959a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97c67e39777411dbe9cb4525153e93ca') in 0.023572 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.048007 seconds.
-  path: Assets/Arts/Tilemaps/set_tree_0.asset
-  artifactKey: Guid(fa6d2ae41388f5a469d677f01d00ef15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/Tilemaps/set_tree_0.asset using Guid(fa6d2ae41388f5a469d677f01d00ef15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2867ac9f59326c3aef7146fe3375c40b') in 0.027177 seconds 
+  Time since last request: 27.083113 seconds.
+  path: Assets/Arts/Tilemaps/crafingbox_rock_0.asset
+  artifactKey: Guid(9bd86ef0213ec4944be6ee711e3017b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Tilemaps/crafingbox_rock_0.asset using Guid(9bd86ef0213ec4944be6ee711e3017b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17508f57452ea36a0958179e3f696de6') in 0.021984 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Arts/Tilemaps/set_tree_1.asset
-  artifactKey: Guid(201a75825919b72429b115a4191826f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/Tilemaps/set_tree_1.asset using Guid(201a75825919b72429b115a4191826f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a095dd773000bfd90130a431d1acc73c') in 0.011959 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5622.156084 seconds.
-  path: Assets/Arts/Tilemaps/bush.png
-  artifactKey: Guid(cbf749c3ca125c348b2819bd771fe4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/Tilemaps/bush.png using Guid(cbf749c3ca125c348b2819bd771fe4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b610ceab1e341bdd45f25e960c96cafb') in 0.050858 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 33.342662 seconds.
-  path: Assets/Arts/Tilemaps/bush.png
-  artifactKey: Guid(cbf749c3ca125c348b2819bd771fe4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/Tilemaps/bush.png using Guid(cbf749c3ca125c348b2819bd771fe4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c740b42b24957a43aaf4cba4ba4a72') in 0.013087 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.351043 seconds.
-  path: Assets/Arts/Tilemaps/bush.png
-  artifactKey: Guid(cbf749c3ca125c348b2819bd771fe4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/Tilemaps/bush.png using Guid(cbf749c3ca125c348b2819bd771fe4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f3e0d8afc00aad788e87fac739bb92a') in 0.029179 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 21.520781 seconds.
-  path: Assets/Arts/Tilemaps/Bush.prefab
-  artifactKey: Guid(9da1ab8b7399f194da92e4f6fd1ba5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/Tilemaps/Bush.prefab using Guid(9da1ab8b7399f194da92e4f6fd1ba5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eeb1aa332e1de1bc55cdcb341d011ed') in 0.051240 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.871428 seconds.
-  path: Assets/Arts/Tilemaps/Bush.prefab
-  artifactKey: Guid(9da1ab8b7399f194da92e4f6fd1ba5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/Tilemaps/Bush.prefab using Guid(9da1ab8b7399f194da92e4f6fd1ba5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b4b6bf7d0beb3388fb6a9377c9019cf') in 0.016586 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Arts/Tilemaps/bush_1.asset
-  artifactKey: Guid(4a7d1b119a181ce4b8c0e4204da821aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/Tilemaps/bush_1.asset using Guid(4a7d1b119a181ce4b8c0e4204da821aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba4c38ce509e511a7649f3dfa64a80a') in 0.014053 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Arts/Tilemaps/bush_3.asset
-  artifactKey: Guid(87227c9562b4960419ac43bae1e4dcde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/Tilemaps/bush_3.asset using Guid(87227c9562b4960419ac43bae1e4dcde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d9f02d83a9844ea610a46a829363878') in 0.011838 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Arts/Tilemaps/bush_2.asset
-  artifactKey: Guid(b5c789750df995e48ba411d371c10245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/Tilemaps/bush_2.asset using Guid(b5c789750df995e48ba411d371c10245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd8626de8514dc51f0a8cff5327ecea') in 0.016038 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Arts/Tilemaps/bush_0.asset
-  artifactKey: Guid(73a7bb519d2f6864b8a9a48bad1bd619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arts/Tilemaps/bush_0.asset using Guid(73a7bb519d2f6864b8a9a48bad1bd619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fe907d87ceee7319e3e6313972c2f30') in 0.012435 seconds 
+  Time since last request: 0.000026 seconds.
+  path: Assets/Arts/Tilemaps/crafingbox_rock_1.asset
+  artifactKey: Guid(2ec3a28e1a1fe314aa55e082176dc47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Tilemaps/crafingbox_rock_1.asset using Guid(2ec3a28e1a1fe314aa55e082176dc47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48b32d045480b06fe8e9669a5564a123') in 0.010546 seconds 
