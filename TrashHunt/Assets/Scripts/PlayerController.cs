@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     public float moveSpeed;
     private bool isMoving;
+    private bool isFacingRight = true;
     private Animator animator;
 
     private void Awake()
@@ -71,26 +72,32 @@ public class PlayerController : MonoBehaviour
         while ((targetPos - transform.position).sqrMagnitude > Mathf.Epsilon)
         {
             rb.velocity = new Vector2(movementJoystick.joystickVec.x * playerSpeed, movementJoystick.joystickVec.y * playerSpeed);
-
-            if (movementJoystick.joystickVec.x > 0)
-            {
-                //start animation of walking to right
-                animator.SetBool("isMovingLeft", false);
-                animator.SetBool("isMovingRight", true);
-            }
-            else if (movementJoystick.joystickVec.x < 0)
+            
+            if (movementJoystick.joystickVec.x < 0 || movementJoystick.joystickVec.x > 0)
             {
                 //start animation of walking to left
-                animator.SetBool("isMovingLeft", true);
-                animator.SetBool("isMovingRight", false);
+                animator.SetBool("isMoving", true);
             }
             else if (movementJoystick.joystickVec.x == 0 && movementJoystick.joystickVec.y == 0)
             {
                 //stop animation of walking to left
                 animator.SetBool("isMoving", false);
-                animator.SetBool("isMovingRight", false);
-                animator.SetBool("isMovingLeft", false);
                 isMoving = false;
+            }
+
+            if (movementJoystick.joystickVec.x < 0 && isFacingRight)
+            {
+                Vector3 currentScale = gameObject.transform.localScale;
+                currentScale.x *= -1;
+                gameObject.transform.localScale = currentScale;
+                isFacingRight = false;
+            }
+            else if (movementJoystick.joystickVec.x > 0 && !isFacingRight)
+            {
+                Vector3 currentScale = gameObject.transform.localScale;
+                currentScale.x *= -1;
+                gameObject.transform.localScale = currentScale;
+                isFacingRight = true;
             }
 
             yield return null;
